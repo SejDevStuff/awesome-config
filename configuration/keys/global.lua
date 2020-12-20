@@ -126,6 +126,14 @@ local globalKeys =
   ),
   awful.key(
     {altkey},
+    'd',
+    function()
+      awful.util.spawn(apps.default.social)
+    end,
+    {description = 'open Discord', group = 'launcher'}
+  ),
+  awful.key(
+    {altkey},
     'f',
     function()
       awful.util.spawn(apps.default.files)
