@@ -18,7 +18,7 @@ return {
     browser = 'firefox',
     editor = 'code', -- gui text editor
     social = 'discord',
-    game = rofi_command,
+    game = 'minecraft-launcher',
     files = 'nautilus',
     music = 'spotify' 
   },

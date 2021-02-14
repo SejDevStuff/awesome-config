@@ -35,8 +35,8 @@ local globalKeys =
     {description = 'focus previous by index', group = 'client'}
   ),
   awful.key(
-    {modkey},
-    'r',
+    {altkey},
+    's',
     function()
       _G.screen.primary.left_panel:toggle(true)
     end,
